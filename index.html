@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mars sol</title>
+    </head>
+    <body>
+        <style>
+            #upper{
+                height: 10vh;
+                background-color: antiquewhite;
+                display: flex;
+                align-items: center;
+                
+            }
+            #upper form{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            #middle{
+                margin-top: 10px;
+                height: 8vh;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                background-color: aqua;
+            }
+            #lower{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+        </style>
+        <div id="upper">
+            <form action="">
+                <input type="number" id="sol" placeholder="Enter sol (max 1000)">
+                <button id="submit">Get Image</button>
+            </form>
+        </div>
+        <div id="middle">
+            <button id="prev">Previous Image</button>
+            <button id="next">Next Image</button>
+        </div>
+        <div id="lower">
+
+        </div>
+        <script src="jquery-3.6.1.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
